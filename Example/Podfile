@@ -9,3 +9,4 @@ target 'ICWeChatPaySDK_Example' do
     
   end
 end
+
