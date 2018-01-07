@@ -1,0 +1,6 @@
+framework module Pods_ICWeChatPaySDK_Tests {
+  umbrella header "Pods-ICWeChatPaySDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EEEA460C559D76B3166C4CAF57F88BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A999E9573BC042702D00BD34F7EA4BAF /* Pods-ICWeChatPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8256D818A9B219A21888CE16C1F8D3D0 /* Pods-ICWeChatPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E387A1237A97E80D422D13D68B9D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B700F9E9B3510ADE82A27330A5214ECD /* Pods-ICWeChatPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED48C25A3B244F06E80338C0ED4FCD6 /* Pods-ICWeChatPaySDK_Example-dummy.m */; };
+		B8B6A10877CFFEAB8244BC653AE37FC5 /* Pods-ICWeChatPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7CF1284D629B7373870774DD3500 /* Pods-ICWeChatPaySDK_Tests-dummy.m */; };
+		CF56B7A7023A6EED5A3A9F1FA7A608AF /* Pods-ICWeChatPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D07B09C09BF314A24B46E2D03E7E32 /* Pods-ICWeChatPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AC90753B5D33D133FA4FA77326B112F /* Pods-ICWeChatPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICWeChatPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		10BBDE01039F51FE29A90C920FC19B9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D591FF47A329DE27EEF13B343193FF0 /* Pods-ICWeChatPaySDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICWeChatPaySDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		37143F93A9F5E3B980EC84923BB72EB5 /* Pods_ICWeChatPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICWeChatPaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BAFC059BCAFA455B0D050A9CC9A5AB /* Pods-ICWeChatPaySDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICWeChatPaySDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		6430A44D8846D1F09919ACBA6F645FC2 /* Pods-ICWeChatPaySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICWeChatPaySDK_Example-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7ED48C25A3B244F06E80338C0ED4FCD6 /* Pods-ICWeChatPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICWeChatPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		8256D818A9B219A21888CE16C1F8D3D0 /* Pods-ICWeChatPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICWeChatPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		8DD24827EE695157972A8A6079EA06D6 /* Pods-ICWeChatPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICWeChatPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A832CA1D454895DC0FAD396D20AEDCE /* Pods-ICWeChatPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICWeChatPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1DB020D84154D806B7A7E24C5C68DF5 /* Pods-ICWeChatPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICWeChatPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE759945F059EBB3D22D31EDB41DFDE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99E5731B42AC879FDB9590F7D105F43 /* Pods-ICWeChatPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICWeChatPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C47F5507D0351938870F1F204B1D220D /* ICWeChatPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICWeChatPaySDK.framework; path = ICWeChatPaySDK/ICWeChatPaySDK.framework; sourceTree = "<group>"; };
+		C5C804CFEBD7697BBB0BC0F9649FFDBB /* Pods-ICWeChatPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICWeChatPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D098E5B7928E10DB2F46ADE1590E23FB /* Pods-ICWeChatPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICWeChatPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1072BF9E87FC267343DA38809D29976 /* Pods-ICWeChatPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ICWeChatPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		D2C4270AD8EEF3D5778A572874FE32AD /* Pods-ICWeChatPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICWeChatPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EB8F7CF1284D629B7373870774DD3500 /* Pods-ICWeChatPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICWeChatPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		EE637320AFE1C24B22E30E1EF69C3CA0 /* Pods_ICWeChatPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICWeChatPaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F236EDB99F349FF5F9C80ED3697F1603 /* Pods-ICWeChatPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICWeChatPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F3D1E5236E45683DAF2CEEA8066A1378 /* Pods-ICWeChatPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ICWeChatPaySDK_Example.modulemap"; sourceTree = "<group>"; };
+		F6D07B09C09BF314A24B46E2D03E7E32 /* Pods-ICWeChatPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICWeChatPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A2E34E40AE70169744A86BD2AAE547A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E387A1237A97E80D422D13D68B9D1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11A38F5B7FA30A97834F9C39EC6FD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEEA460C559D76B3166C4CAF57F88BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5217950477E13466F2BD728EDF668501 /* ICWeChatPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F99A5BB28F86E47B8E768DE8FAB935E /* Frameworks */,
+			);
+			name = ICWeChatPaySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5F99A5BB28F86E47B8E768DE8FAB935E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C47F5507D0351938870F1F204B1D220D /* ICWeChatPaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69217EE09F3B864D1F1DA19B8EDE3D1B /* Pods-ICWeChatPaySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE759945F059EBB3D22D31EDB41DFDE7 /* Info.plist */,
+				D1072BF9E87FC267343DA38809D29976 /* Pods-ICWeChatPaySDK_Tests.modulemap */,
+				D098E5B7928E10DB2F46ADE1590E23FB /* Pods-ICWeChatPaySDK_Tests-acknowledgements.markdown */,
+				9A832CA1D454895DC0FAD396D20AEDCE /* Pods-ICWeChatPaySDK_Tests-acknowledgements.plist */,
+				EB8F7CF1284D629B7373870774DD3500 /* Pods-ICWeChatPaySDK_Tests-dummy.m */,
+				2D591FF47A329DE27EEF13B343193FF0 /* Pods-ICWeChatPaySDK_Tests-frameworks.sh */,
+				39BAFC059BCAFA455B0D050A9CC9A5AB /* Pods-ICWeChatPaySDK_Tests-resources.sh */,
+				F6D07B09C09BF314A24B46E2D03E7E32 /* Pods-ICWeChatPaySDK_Tests-umbrella.h */,
+				A1DB020D84154D806B7A7E24C5C68DF5 /* Pods-ICWeChatPaySDK_Tests.debug.xcconfig */,
+				B99E5731B42AC879FDB9590F7D105F43 /* Pods-ICWeChatPaySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-ICWeChatPaySDK_Tests";
+			path = "Target Support Files/Pods-ICWeChatPaySDK_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D5FD447EDC382EA2FA9FAD39B3C7D9E6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FE95710E8AD6669BC1517D8487D40EF3 /* Products */,
+				85ABB113D022618F9215B0E06665F7C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85ABB113D022618F9215B0E06665F7C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC65442D2A9A5B453CBE9E54A2CD63ED /* Pods-ICWeChatPaySDK_Example */,
+				69217EE09F3B864D1F1DA19B8EDE3D1B /* Pods-ICWeChatPaySDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5FD447EDC382EA2FA9FAD39B3C7D9E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5217950477E13466F2BD728EDF668501 /* ICWeChatPaySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DC65442D2A9A5B453CBE9E54A2CD63ED /* Pods-ICWeChatPaySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				10BBDE01039F51FE29A90C920FC19B9C /* Info.plist */,
+				F3D1E5236E45683DAF2CEEA8066A1378 /* Pods-ICWeChatPaySDK_Example.modulemap */,
+				C5C804CFEBD7697BBB0BC0F9649FFDBB /* Pods-ICWeChatPaySDK_Example-acknowledgements.markdown */,
+				8DD24827EE695157972A8A6079EA06D6 /* Pods-ICWeChatPaySDK_Example-acknowledgements.plist */,
+				7ED48C25A3B244F06E80338C0ED4FCD6 /* Pods-ICWeChatPaySDK_Example-dummy.m */,
+				0AC90753B5D33D133FA4FA77326B112F /* Pods-ICWeChatPaySDK_Example-frameworks.sh */,
+				6430A44D8846D1F09919ACBA6F645FC2 /* Pods-ICWeChatPaySDK_Example-resources.sh */,
+				8256D818A9B219A21888CE16C1F8D3D0 /* Pods-ICWeChatPaySDK_Example-umbrella.h */,
+				D2C4270AD8EEF3D5778A572874FE32AD /* Pods-ICWeChatPaySDK_Example.debug.xcconfig */,
+				F236EDB99F349FF5F9C80ED3697F1603 /* Pods-ICWeChatPaySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-ICWeChatPaySDK_Example";
+			path = "Target Support Files/Pods-ICWeChatPaySDK_Example";
+			sourceTree = "<group>";
+		};
+		FE95710E8AD6669BC1517D8487D40EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37143F93A9F5E3B980EC84923BB72EB5 /* Pods_ICWeChatPaySDK_Example.framework */,
+				EE637320AFE1C24B22E30E1EF69C3CA0 /* Pods_ICWeChatPaySDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50361E0441580FB27454968431B06BA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF56B7A7023A6EED5A3A9F1FA7A608AF /* Pods-ICWeChatPaySDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98840CB384560C0D11BC1BCB7EE6BC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A999E9573BC042702D00BD34F7EA4BAF /* Pods-ICWeChatPaySDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02F33141051F9D6FD84B9701BC03743C /* Pods-ICWeChatPaySDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9534C9AACFD62369647D627513F41068 /* Build configuration list for PBXNativeTarget "Pods-ICWeChatPaySDK_Tests" */;
+			buildPhases = (
+				DF7AC389B7DA31BD21E19370331DE943 /* Sources */,
+				B11A38F5B7FA30A97834F9C39EC6FD9C /* Frameworks */,
+				50361E0441580FB27454968431B06BA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ICWeChatPaySDK_Tests";
+			productName = "Pods-ICWeChatPaySDK_Tests";
+			productReference = EE637320AFE1C24B22E30E1EF69C3CA0 /* Pods_ICWeChatPaySDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		979197EECF3E3A7A354A70E3730A055B /* Pods-ICWeChatPaySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775BD4577EA8F0A2C8F4A6DAFAB07E83 /* Build configuration list for PBXNativeTarget "Pods-ICWeChatPaySDK_Example" */;
+			buildPhases = (
+				E91A529278C8248966A5EC9478E59569 /* Sources */,
+				7A2E34E40AE70169744A86BD2AAE547A /* Frameworks */,
+				C98840CB384560C0D11BC1BCB7EE6BC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ICWeChatPaySDK_Example";
+			productName = "Pods-ICWeChatPaySDK_Example";
+			productReference = 37143F93A9F5E3B980EC84923BB72EB5 /* Pods_ICWeChatPaySDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FE95710E8AD6669BC1517D8487D40EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979197EECF3E3A7A354A70E3730A055B /* Pods-ICWeChatPaySDK_Example */,
+				02F33141051F9D6FD84B9701BC03743C /* Pods-ICWeChatPaySDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7AC389B7DA31BD21E19370331DE943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B6A10877CFFEAB8244BC653AE37FC5 /* Pods-ICWeChatPaySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91A529278C8248966A5EC9478E59569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B700F9E9B3510ADE82A27330A5214ECD /* Pods-ICWeChatPaySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3365DF538D4E79641C071BF6005B01A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C4270AD8EEF3D5778A572874FE32AD /* Pods-ICWeChatPaySDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../ICWeChatPaySDK\"",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-ICWeChatPaySDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICWeChatPaySDK_Example/Pods-ICWeChatPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ICWeChatPaySDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		73BD38FB6C58A02D2C47176CE11095EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DB020D84154D806B7A7E24C5C68DF5 /* Pods-ICWeChatPaySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICWeChatPaySDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICWeChatPaySDK_Tests/Pods-ICWeChatPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ICWeChatPaySDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B92CBD66A11CC9BAFAE10A530A35B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F236EDB99F349FF5F9C80ED3697F1603 /* Pods-ICWeChatPaySDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../ICWeChatPaySDK\"",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-ICWeChatPaySDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICWeChatPaySDK_Example/Pods-ICWeChatPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ICWeChatPaySDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F785442B88F3A895CF702DD1CB6D3600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99E5731B42AC879FDB9590F7D105F43 /* Pods-ICWeChatPaySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICWeChatPaySDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICWeChatPaySDK_Tests/Pods-ICWeChatPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ICWeChatPaySDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775BD4577EA8F0A2C8F4A6DAFAB07E83 /* Build configuration list for PBXNativeTarget "Pods-ICWeChatPaySDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365DF538D4E79641C071BF6005B01A1 /* Debug */,
+				8B92CBD66A11CC9BAFAE10A530A35B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9534C9AACFD62369647D627513F41068 /* Build configuration list for PBXNativeTarget "Pods-ICWeChatPaySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BD38FB6C58A02D2C47176CE11095EC /* Debug */,
+				F785442B88F3A895CF702DD1CB6D3600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
