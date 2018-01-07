@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ICWeChatPaySDK_Example' do
+  pod 'ICWeChatPaySDK', :path => '../'
+
+  target 'ICWeChatPaySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
