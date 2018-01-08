@@ -17,6 +17,7 @@ ICWeChatPaySDK is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
+#swift 使用的嵌入式动态库
 pod 'ICWeChatPaySDK'
 ```
 
